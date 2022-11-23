@@ -86,3 +86,38 @@ body{
 .search button{
     background-color:transparent;
 }
+
+.header_house{
+    background-size: cover;
+}
+
+.header_inner{
+    background-image: url(./img/header_house.jpg);
+    min-height: 784px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.header_text{
+    height: 550px;
+    width: 691px;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.header_text h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 51px;
+    font-weight: bold;
+    margin: 138px 166px 15px 100px;
+    line-height: 65px;
+}
+
+.header_text p{
+    font-family: 'Inter', serif;
+    font-size: 32px;
+    font-weight: 200;
+    margin: 0 155px 139px 100px;
+    line-height: 39px;
+}
